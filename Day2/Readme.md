@@ -1,6 +1,8 @@
+# PROGRAM 2
+
 Question:
 
-Write a program that takes an integer n as input and prints all the factors of n.
+Write a program that takes an integer `n` as input and prints all the factors of `n`.
 
 Example:
 
