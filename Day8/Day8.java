@@ -3,7 +3,7 @@ package com.challenge;
 import java.util.Scanner;
 
 public class Day8 {
-	static int sumArray(int n, int a[]) {
+	static int sumArray(int a[]) {
 		int sum = 0;
 		for (int i = 0; i < a.length; i++) {
 			sum = sum + a[i];
@@ -20,7 +20,7 @@ public class Day8 {
 			a[i] = scan.nextInt();
 		}
 		scan.close();
-		int sumArray = sumArray(n, a);
+		int sumArray = sumArray(a);
 		System.out.println(sumArray);
 	}
 
